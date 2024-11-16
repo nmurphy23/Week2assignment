@@ -1,0 +1,44 @@
+/* the body will reflect the background color of each page*/
+body {
+    background-color: rgb(190, 138, 138);
+}
+
+/* the color I have chosen for the text in the paragraph will be a darkblue */
+p {
+    font-style: italic; color: darkblue;
+}
+
+/* I have chosen to center the headers for each page and have the text be white */
+h2 {
+    color:antiquewhite;
+    text-align: center;
+ }
+
+
+ /*for the image below, I wanted it to be centered with the page so I selected display property as a block and set the margin to auto to ensure equal spacing on the page */
+ img {
+    display:block; 
+ margin: auto;
+ }
+
+ol {
+    box-shadow: 10px 5px 5px #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: rgb(119, 22, 22);
+}
+
+/* below i had to redo the table and form; I didn't realize the table was it's own block element itself and I was trying to center the actual table data and failed for awhile. I redid my HTML and added table rows to each set of table data I wanted to be displayed, along with the radio buttons. */
+
+table{
+    margin: auto;
+}
+
+tr{
+    text-align: center;
+    background-color:aqua
+}
+
+form {
+    text-align: center;
+ 
+}
+
